@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Personal Portfolio</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family: Georgia, serif;
+            background-color:#F6F1E9;
+            color:#2C1E14;
+        }
+        header{
+            background:#111111;
+            color:#F6F1E9;
+            text-align:center;
+            padding:60px;
+        }
+
+        header h1{
+            font-size:50px;
+            letter-spacing:4px;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:18px;
+        }
+
+        nav{
+            background:#3B2A20;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+        }
+
+        .container{
+            width:85%;
+            margin:auto;
+        }
+
+        .hero{
+            text-align:center;
+            padding:50px;
+        }
+
+        .hero img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            border:5px solid #3B2A20;
+        }
+
+        .hero h2{
+            margin-top:20px;
+            font-size:35px;
+        }
+
+        .hero span{
+            color:#8B6B4A;
+        }
+
+        .section{
+            background:white;
+            margin-top:30px;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,.1);
+        }
+
+        .section h2{
+            border-bottom:3px solid #3B2A20;
+            padding-bottom:10px;
+            margin-bottom:20px;
+        }
+
+        .project{
+            margin-bottom:30px;
+        }
+
+        .project img{
+            width:100%;
+            max-width:500px;
+            border-radius:10px;
+            border:3px solid #3B2A20;
+        }
+        ul,ol,dl{
+            margin-left:25px;
+            margin-top:10px;
+        }
+        form input,
+        form textarea,
+        form select{
+            width:100%;
+            padding:10px;
+            margin-top:8px;
+            margin-bottom:15px;
+        }
+        button{
+            background:#2C1E14;
+            color:white;
+            border:none;
+            padding:12px 20px;
+        }
+        footer{
+            background:#111111;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ROHAN'S PORTFOLIO</h1>
+    <p>O.B. Student • Loves ICT</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#works">Works</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="hero">
+
+        <img src="https://i.redd.it/z6b8bcqhzrbd1.jpeg" alt="Profile Picture">
+
+        <h2>Hello, I'm <span>Rohan, but you can call me Nan for short!</span></h2>
+
+        <p>
+            In ICT class, We like exploring technology, web development, and digital design
+while building meaningful projects and learning new skills!
+        </p>
+
+    </div>
+
+    <div class="section" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            My name is Nan. I am passionate about technology,
+            website creation, and improving my skills in HTML and CSS.
+        </p>
+
+    </div>
+
+    <div class="section" id="works">
+
+        <h2>My Works</h2>
+
+        <div class="project">
+
+            <h3>Robotics Club Application Form</h3>
+            <h3> and Rate a Movie!</h3>
+
+            <ul>
+                <li>HTML Forms</li>
+                <li>CSS Styling</li>
+                <li>User Input Elements</li>
+            </ul>
+
+            <a href="https://github.com/">View Repository</a>
+
+        </div>
+
+        <h3>Learning Process</h3>
+
+        <ol>
+            <li>Plan the layout</li>
+            <li>Create the structure</li>
+            <li>Apply CSS styling</li>
+            <li>Test and improve</li>
+        </ol>
+
+        <h3>Web Development Terms</h3>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Creates the structure of webpages.</dd>
+
+            <dt>CSS</dt>
+            <dd>Styles and designs webpages.</dd>
+
+            <dt>VS Code</dt>
+            <dd>Code editor used for development.</dd>
+        </dl>
+
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <div>
+                <label>Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email">
+            </div>
+
+            <div>
+                <label>Interest</label>
+
+                <select>
+                    <option>Web Design</option>
+                    <option>Programming</option>
+                    <option>Technology</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Feedback</label>
+                <textarea rows="5"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Rohan Abad Yumang | ICT Portfolio
+</footer>
+
+</body>
+</html>
